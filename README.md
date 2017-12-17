@@ -3,5 +3,5 @@ Implementation of Deep Learning Algorithms using Keras Library. All code example
 
 ## Jupyter Notebooks
 
-[ 1. A first look at a neural network](https://github.com/andersy005/deep-learning/blob/master/01-A-first-look-at-a-neural-network.ipynb)
-
+1. [A first look at a neural network](https://github.com/andersy005/deep-learning/blob/master/01-A-first-look-at-a-neural-network.ipynb)
+2. [A binary classification example: Classifying movie reviews](https://github.com/andersy005/deep-learning/blob/master/02-A-Binary-Classification-Example.ipynb)
