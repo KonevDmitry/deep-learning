@@ -13,7 +13,7 @@ Implementation of Deep Learning Algorithms using Keras Library. All code example
 
 A universal blueprint that you can use to attack and solve any machine-learning problem.
 
-### Defining the problem and assembling a dataset
+### 1. Defining the problem and assembling a dataset
 
 First, you must define the problem at hand:
 
@@ -35,7 +35,7 @@ You can’t move to the next stage until you know what your inputs and outputs a
 
 **Be aware of nonstationary problems.**
 
-### Choosing a measure of success
+### 2. Choosing a measure of success
 
 To achieve success, you must define what you mean by success:
  - accuracy? 
@@ -49,7 +49,7 @@ To achieve success, you must define what you mean by success:
 
 The data science competitions on Kaggle (https://kaggle.com) should be your number one learning resource.
 
-### Deciding on an evaluation protocol
+### 3. Deciding on an evaluation protocol
 
 Once you know what you’re aiming for, you must establish how you’ll measure your current progress. We’ve previously reviewed three common evaluation protocols:
 
@@ -59,7 +59,7 @@ Once you know what you’re aiming for, you must establish how you’ll measure 
 
 Just pick one of these. In most cases, the first will work well enough.
 
-### Preparing your data
+### 4. Preparing your data
 
 Once you know what you’re training on, what you’re optimizing for, and how to evaluate your approach, you’re almost ready to begin training models. But first, you should format your data in a way that can be fed into a machine-learning model—here, we’ll assume a deep neural network:
 
@@ -71,7 +71,7 @@ Once you know what you’re training on, what you’re optimizing for, and how t
 Once your tensors of input data and target data are ready, you can begin to train models.
 
 
-### Developing a model that does better than a baseline
+### 5. Developing a model that does better than a baseline
 
 Your goal at this stage is to achieve statistical power: that is, to develop a small model that is capable of beating a dumb baseline. In the MNIST digit-classification example, anything that achieves an accuracy greater than 0.1 can be said to have statistical power; in the IMDB example, it’s anything with an accuracy greater than 0.5.
 
@@ -97,7 +97,7 @@ Assuming that things go well, you need to make three key choices to build your f
 | Regression to values between 0 and 1    | sigmoid               | mse or binary_crossentropy |
 
 
-### Scaling up: developing a model that overfits
+### 6. Scaling up: developing a model that overfits
 
 Once you’ve obtained a model that has statistical power, the question becomes, is your model sufficiently powerful? Does it have enough layers and parameters to properly model the problem at hand? For instance, a network with a single hidden layer with two units would have statistical power on MNIST but wouldn’t be sufficient to solve the problem well. Remember that the universal tension in machine learning is between optimization and generalization; the ideal model is one that stands right at the border between underfitting and overfitting; between undercapacity and overcapacity. To figure out where this border lies, first you must cross it.
 
@@ -110,7 +110,8 @@ To figure out how big a model you’ll need, you must develop a model that overf
 Always monitor the training loss and validation loss, as well as the training and validation values for any metrics you care about. When you see that the model’s performance on the validation data begins to degrade, you’ve achieved overfitting.
 
 The next stage is to start regularizing and tuning the model, to get as close as possible to the ideal model that neither underfits nor overfits.
-4.5.7. Regularizing your model and tuning your hyperparameters
+
+### 7. Regularizing your model and tuning your hyperparameters
 
 This step will take the most time: you’ll repeatedly modify your model, train it, evaluate on your validation data (not the test data, at this point), modify it again, and repeat, until the model is as good as it can get. These are some things you should try:
 
