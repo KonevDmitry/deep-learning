@@ -33,7 +33,7 @@ You can’t move to the next stage until you know what your inputs and outputs a
 - You hypothesize that your outputs can be predicted given your inputs.
 - You hypothesize that your available data is sufficiently informative to learn the relationship between inputs and outputs.
 
-**Be aware of is nonstationary problems.**
+**Be aware of nonstationary problems.**
 
 ### Choosing a measure of success
 
@@ -47,7 +47,7 @@ To achieve success, you must define what you mean by success:
 **For class-imbalanced problems, you can use precision and recall. For ranking problems or multilabel classification, you can use mean average precision.** 
 
 
-The data science competitions on Kaggle (https://kaggle.com) should be your friend.
+The data science competitions on Kaggle (https://kaggle.com) should be your number one learning resource.
 
 ### Deciding on an evaluation protocol
 
