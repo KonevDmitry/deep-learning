@@ -1,5 +1,5 @@
 # Deep Learning with Python
-Implementation of Deep Learning Algorithms using Keras Library. All code examples are based on, unless specified, [François Chollet's Deep Learning with Python Book](https://www.manning.com/books/deep-learning-with-python)
+Implementation of Deep Learning Algorithms using Keras Library. All code examples are based on, unless specified, [François Chollet's Deep Learning with Python Book](https://www.manning.com/books/deep-learning-with-python).
 
 ## Table of Contents
 
@@ -10,6 +10,11 @@ Implementation of Deep Learning Algorithms using Keras Library. All code example
 5. [Introduction to Convolutional Neural Networks](https://github.com/andersy005/deep-learning/blob/master/05-Introdcution-to-convnets.ipynb)
 6. [Dogs vs Cats Classification Using Convnets](https://github.com/andersy005/deep-learning/blob/master/06-CatdogNet.ipynb)
 7. [Visualizing what convnets learn](https://github.com/andersy005/deep-learning/blob/master/07-visualizing-what-convnets-learn.ipynb)
+8. [Working with text data](https://github.com/andersy005/deep-learning/blob/master/08-working-with-text-data.ipynb) 
+9. [Understanding RNNs](https://github.com/andersy005/deep-learning/blob/master/09-understanding-recurrent-neural-networks.ipynb)
+10. [Advanced Use of RNNs](https://github.com/andersy005/deep-learning/blob/master/10-advanced-use-of-rnn.ipynb)
+11. [Sequence Processing with 1D convnets](https://github.com/andersy005/deep-learning/blob/master/11-sequence-processing-with-convnets.ipynb.ipynb)
+
 
 
 ## The universal workflow of machine learning
