@@ -1,6 +1,6 @@
 # Deep Learning with Python
 
-![](https://keras.io/img/keras-logo-small-2018.jpg)
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Keras_Logo.jpg/180px-Keras_Logo.jpg)
 
 Implementation of Deep Learning Algorithms using Keras Library. A large fraction of code examples is based on [François Chollet's Deep Learning with Python Book](https://www.manning.com/books/deep-learning-with-python) and [Jason Brownlee's blog - Machine Learning Mastery](https://machinelearningmastery.com/blog/).
 
