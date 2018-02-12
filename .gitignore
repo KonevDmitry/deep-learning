@@ -100,3 +100,4 @@ ENV/
 # mypy
 .mypy_cache/
 AutoEncoders/.ipynb_checkpoints/simplest-autoencoder-checkpoint.ipynb
+pytorch/.tmp/
