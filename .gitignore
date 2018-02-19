@@ -101,3 +101,6 @@ ENV/
 .mypy_cache/
 AutoEncoders/.ipynb_checkpoints/simplest-autoencoder-checkpoint.ipynb
 pytorch/.tmp/
+pytorch/data/
+pytorch/runs/
+pytorch/torch_data/
